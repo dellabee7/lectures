@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/_config.yml.md",
+                "file": "lecture/02_[EH]AXDXServiceDesign&Prototype/AXDX_Syllabus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_config.yml"
+              "title": "AXDX_Syllabus"
             }
           }
         ]
@@ -182,11 +182,13 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "097bd36d48798860",
+  "active": "99bb2ac41cef2ec1",
   "lastOpenFiles": [
+    "lecture/03_ManagementInformationSystem/MIS_Syllabus.md",
+    "lecture/02_[EH]AXDXServiceDesign&Prototype/AXDX_Syllabus.md",
+    "lecture/README.md",
     "lecture/_config.yml.md",
     "lecture/LICENSE",
-    "lecture/03_ManagementInformationSystem/MIS_Syllabus.md",
     "lecture/03_ManagementInformationSystem",
     "lecture/02_[EH]AXDXServiceDesign&Prototype",
     "lecture/01_SystemAnalysisDesign/week1_images/week1_7.png",
@@ -200,7 +202,6 @@
     "lecture/01_SystemAnalysisDesign/20250902_[시스템분석및설계]_SAD_1주차_이론및사례_강의자료.md",
     "lecture/01_SystemAnalysisDesign/SAD_Syllabus.md",
     "lecture/01_SystemAnalysisDesign",
-    "lecture/README.md",
     "lecture/MIS_Syllabus.md",
     "lecture/새 폴더",
     "lecture/SAD_Syllabus.md",
