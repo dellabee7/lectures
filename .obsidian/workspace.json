@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_config.yml.md",
+                "file": "lecture/_config.yml.md",
                 "mode": "source",
                 "source": false
               },
@@ -182,9 +182,9 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "99bb2ac41cef2ec1",
+  "active": "097bd36d48798860",
   "lastOpenFiles": [
-    "_config.yml.md",
+    "lecture/_config.yml.md",
     "lecture/LICENSE",
     "lecture/03_ManagementInformationSystem/MIS_Syllabus.md",
     "lecture/03_ManagementInformationSystem",
