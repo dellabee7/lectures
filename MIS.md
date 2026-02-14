@@ -1,4 +1,9 @@
-# 📚 경영정보시스템(MIS) 강의계획서
+# 📚 경영정보시스템(MIS)
+
+![Institution](https://img.shields.io/badge/TUKorea-한국공학대학교-blue)
+![Department](https://img.shields.io/badge/Department-경영학부-green)
+![Course Type](https://img.shields.io/badge/Type-전공선택-red)
+![Target](https://img.shields.io/badge/Target-4학년-orange)
 
 - **교과목명**: 경영정보시스템(Management Information Systems, MIS)  
 - **수강대상/권장선수지식**: 전 학년(권장: 기초 경영/조직, 데이터 리터러시, 프로세스 이해)  
