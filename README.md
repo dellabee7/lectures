@@ -34,7 +34,7 @@
 
 #### 🚀 [EH] 창업아이디어설계를 위한 AX/DX 서비스 기획 (AX/DX Service Design & Prototype)
 
-![Course Type](https://img.shields.io/badge/Type-전공선택-blue)
+![Course Type](https://img.shields.io/badge/Type-전공필수-blue)
 ![Target](https://img.shields.io/badge/Target-3_4학년-yellow)
 
 - **강의 목표**: 디지털 전환 시대의 서비스 기획 및 사용자 경험 설계
