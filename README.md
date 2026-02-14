@@ -178,10 +178,10 @@ git clone https://github.com/[본인ID]/Lectures-AXID-Lab.git
 
 ## 📧 연락처 (Contact Information)
 
-**교수자**: 강송희 교수 (Professor Dr. Songhee Kang)
-**연구실**: AXID Lab
-**소속**: 한국공학대학교 IT경영전공
-**이메일**: [dellabee]@tukorea.ac.kr
+- **교수자**: 강송희 교수 (Professor Dr. Songhee Kang)
+- **연구실**: AXID Lab
+- **소속**: 한국공학대학교 IT경영전공
+- **이메일**: [dellabee]@tukorea.ac.kr
 
 ### 📞 문의 방법
 
