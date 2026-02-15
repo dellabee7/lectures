@@ -35,15 +35,15 @@
 
 | 주차          | 주제                   | 핵심 내용 (6 Lenses)            | 파일 링크                                                            |
 | ----------- | -------------------- | --------------------------- | ---------------------------------------------------------------- |
-| **Week 1**  | 오리엔테이션               | 과목 개요 및 연구 윤리 가이드           | [📄 week01.md](./week1.md)                                       |
-| **Week 2**  | 전략-IT 정렬             | SAM 모델, Zara 케이스, 전략 분해     | [📄 week02.md](./week2.md)                                       |
-| **Week 3**  | 사회기술시스템(STS)         | 사람-구조-기술-프로세스 최적화           | [📄 week03.md](./week3.md)                                       |
-| **Week 4**  | 데이터와 의사결정            | DIKW 계층, IQ 6차원, KPI 설계     | [📄 week04.md](./week4.md)                                       |
-| **Week 5**  | 프로세스 관점 & 통합         | BPM, ERP/SCM/CRM, SSOT 원칙   | [📄 week05.md](./week5.md)                                       |
-| **Week 6**  | IT 거버넌스 & 투자성과       | RACI 모델, ROI/TCO 분석, BSC    | [📄 week06.md](./week6.md)                                       |
-| **Week 7**  | 디지털 경쟁우위             | 플랫폼, 네트워크 효과, 전환비용          | [📄 week07.md](./week7.md)                                       |
+| **Week 1**  | 오리엔테이션               | 과목 개요 및 연구 윤리 가이드           | [📄 week1.md](./week1.md)                                        |
+| **Week 2**  | 전략-IT 정렬             | SAM 모델, Zara 케이스, 전략 분해     | [📄 week2.md](./week2.md)                                        |
+| **Week 3**  | 사회기술시스템(STS)         | 사람-구조-기술-프로세스 최적화           | [📄 week3.md](./week3.md)                                        |
+| **Week 4**  | 데이터와 의사결정            | DIKW 계층, IQ 6차원, KPI 설계     | [📄 week4.md](./week4.md)                                        |
+| **Week 5**  | 프로세스 관점 & 통합         | BPM, ERP/SCM/CRM, SSOT 원칙   | [📄 week5.md](./week5.md)                                        |
+| **Week 6**  | IT 거버넌스 & 투자성과       | RACI 모델, ROI/TCO 분석, BSC    | [📄 week6.md](./week6.md)                                        |
+| **Week 7**  | 디지털 경쟁우위             | 플랫폼, 네트워크 효과, 전환비용          | [📄 week7.md](./week7.md)                                        |
 | **Week 8**  | **Mid-term Project** | **[6렌즈 기반 기업 분석 보고서]**      | -                                                                |
-| **Week 9**  | 역량 매핑 & EA 기초        | Capability Map, EA 4레이어 구조  | [📄 week09.md](./week9.md)                                       |
+| **Week 9**  | 역량 매핑 & EA 기초        | Capability Map, EA 4레이어 구조  | [📄 week9.md](./week9.md)                                        |
 | **Week 10** | EA 이행 & 전환 관리        | Build vs Buy, 마이그레이션 전략     | [📄 week10.md](lecture/03_ManagementInformationSystem/week10.md) |
 | **Week 11** | 데이터 거버넌스             | 품질 관리, 메타데이터, 보안(CIA)       | [📄 week11.md](lecture/03_ManagementInformationSystem/week11.md) |
 | **Week 12** | 통합 및 운영 관리           | API 경제, SLA 관리, 운영 KPI      | [📄 week12.md](lecture/03_ManagementInformationSystem/week12.md) |
