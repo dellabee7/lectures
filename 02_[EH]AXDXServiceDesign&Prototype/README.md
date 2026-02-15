@@ -5,6 +5,8 @@
 ![Course Type](https://img.shields.io/badge/Type-전공필수-red)
 ![Target](https://img.shields.io/badge/Target-4학년-orange)
 
+**[강의 로드맵 (Lecture Map) →](lectureMap.md)**
+
 - **AX(인공지능 전환) 기반 혁신 창업 아이디어의 구체화 및 제품화**
 
 - **교과목명**: 창업아이디어설계를 위한 AX/DX 서비스 기획

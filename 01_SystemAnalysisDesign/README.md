@@ -5,6 +5,8 @@
 ![Course Type](https://img.shields.io/badge/Type-전공필수-red)
 ![Target](https://img.shields.io/badge/Target-3학년-orange)
 
+**[강의 로드맵 (Lecture Map) →](lectureMap.md)**
+
 **한국공학대학교 IT경영전공 시스템분석설계 강의 아카이브입니다.**
 본 레포지토리는 강의 자료 배포 및 수강생들의 프로젝트 결과물 관리를 위해 운영됩니다.
 
