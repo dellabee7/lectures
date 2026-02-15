@@ -1,6 +1,6 @@
 # Week 5: 조건문
 
-**[← Week 4](./week04.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 6 →](./week06.md)**
+--[← Week 4](./week04.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 6 →](./week06.md)--
 
 ---
 
@@ -8,12 +8,12 @@
 
 이번 주 실습을 완료하면 다음과 같은 능력을 갖추게 됩니다:
 
-1. **조건문의 기본 구조 이해**: if문의 기본 문법과 들여쓰기 규칙을 완전히 익힙니다
-2. **다중 조건 처리**: if-elif-else문을 사용하여 여러 조건을 효율적으로 처리합니다
-3. **복합 조건문 작성**: 논리 연산자를 활용하여 복잡한 조건식을 만듭니다
-4. **중첩 조건문 마스터**: 조건문 안에 조건문을 넣어 정교한 논리를 구현합니다
-5. **삼항 연산자 활용**: 간단한 조건문을 한 줄로 표현하는 방법을 배웁니다
-6. **실무 응용 프로그램 제작**: 성적 시스템, 로그인 시스템 등 실용적인 프로그램을 작성합니다
+1. --조건문의 기본 구조 이해--: if문의 기본 문법과 들여쓰기 규칙을 완전히 익힙니다
+2. --다중 조건 처리--: if-elif-else문을 사용하여 여러 조건을 효율적으로 처리합니다
+3. --복합 조건문 작성--: 논리 연산자를 활용하여 복잡한 조건식을 만듭니다
+4. --중첩 조건문 마스터--: 조건문 안에 조건문을 넣어 정교한 논리를 구현합니다
+5. --삼항 연산자 활용--: 간단한 조건문을 한 줄로 표현하는 방법을 배웁니다
+6. --실무 응용 프로그램 제작--: 성적 시스템, 로그인 시스템 등 실용적인 프로그램을 작성합니다
 
 ---
 
@@ -47,10 +47,10 @@
 | 동일성 | `is`, `is not` | 객체 동일성 | `value is None` |
 
 ### 4. 들여쓰기 규칙
-- **파이썬의 핵심**: 들여쓰기로 코드 블록을 구분
-- **표준**: 공백 4개 또는 탭 1개 (공백 4개 권장)
-- **일관성**: 같은 블록 내에서는 동일한 들여쓰기 사용
-- **중첩**: 더 안쪽 블록은 더 많이 들여쓰기
+- --파이썬의 핵심--: 들여쓰기로 코드 블록을 구분
+- --표준--: 공백 4개 또는 탭 1개 (공백 4개 권장)
+- --일관성--: 같은 블록 내에서는 동일한 들여쓰기 사용
+- --중첩--: 더 안쪽 블록은 더 많이 들여쓰기
 
 ---
 
@@ -60,10 +60,10 @@
 
 #### 🚀 단순 if문
 
-**기본 if문 구조**:
+--기본 if문 구조--:
 ```python
 print("🚀 단순 if문")
-print("=" * 15)
+print("=" - 15)
 
 # 기본 if문 문법
 # if 조건:
@@ -93,7 +93,7 @@ if score < 60:
 print(f"입력한 점수: {score}점")
 ```
 
-**실행 예시**:
+--실행 예시--:
 ```
 🚀 단순 if문
 ===============
@@ -111,7 +111,7 @@ print(f"입력한 점수: {score}점")
 
 ```python
 print("⚖️ if-else문")
-print("=" * 15)
+print("=" - 15)
 
 # if-else 기본 구조
 password = input("비밀번호를 입력하세요: ")
@@ -123,7 +123,7 @@ else:
     print("🔒 비밀번호가 틀렸습니다.")
     print("다시 시도해주세요.")
 
-print("=" * 30)
+print("=" - 30)
 
 # 숫자 홀짝 판별
 number = int(input("숫자를 입력하세요: "))
@@ -133,7 +133,7 @@ if number % 2 == 0:
 else:
     print(f"🔢 {number}는 홀수입니다.")
 
-print("=" * 30)
+print("=" - 30)
 
 # 온도에 따른 옷차림 추천
 temperature = int(input("오늘 기온을 입력하세요(°C): "))
@@ -154,7 +154,7 @@ print(f"현재 기온: {temperature}°C")
 
 ```python
 print("🎯 if-elif-else문")
-print("=" * 20)
+print("=" - 20)
 
 # 성적 등급 판정
 score = int(input("점수를 입력하세요 (0-100): "))
@@ -180,7 +180,7 @@ else:
 print(f"등급: {grade}")
 print(comment)
 
-print("=" * 30)
+print("=" - 30)
 
 # 계절 판정
 month = int(input("월을 입력하세요 (1-12): "))
@@ -209,13 +209,13 @@ else:
 print(f"{month}월은 {emoji} {season}입니다!")
 print(f"추천 활동: {activity}")
 
-print("=" * 30)
+print("=" - 30)
 
 # BMI 계산 및 판정
 height = float(input("키를 입력하세요 (cm): ")) / 100  # m 단위로 변환
 weight = float(input("몸무게를 입력하세요 (kg): "))
 
-bmi = weight / (height ** 2)
+bmi = weight / (height -- 2)
 
 print(f"BMI 지수: {bmi:.1f}")
 
@@ -249,19 +249,19 @@ print(f"조언: {advice}")
 ```python
 # 파일명: menu_system.py
 print("🎮 간단한 메뉴 시스템")
-print("=" * 25)
+print("=" - 25)
 
 def show_menu():
     """메뉴를 보여주는 함수"""
-    print("\n" + "="*30)
+    print("\n" + "="-30)
     print("🍔 햄버거 주문 시스템")
-    print("="*30)
+    print("="-30)
     print("1. 🍟 햄버거 세트 - 8,000원")
     print("2. 🌭 핫도그 세트 - 6,000원") 
     print("3. 🍕 피자 세트 - 12,000원")
     print("4. 🥤 음료수만 - 2,000원")
     print("5. 🚪 종료")
-    print("="*30)
+    print("="-30)
 
 def process_order():
     """주문 처리 함수"""
@@ -369,7 +369,7 @@ if __name__ == "__main__":
 
 ```python
 print("🔗 논리 연산자와 조건문")
-print("=" * 25)
+print("=" - 25)
 
 # AND 연산자 활용
 print("💳 대출 심사 시스템")
@@ -386,13 +386,13 @@ print(f"신용점수: {credit_score}점")
 if age >= 20 and age <= 65 and income >= 3000 and credit_score >= 700:
     print("✅ 대출 승인!")
     print("🎉 최우대 금리 적용 가능합니다.")
-    loan_limit = min(income * 5, 50000)  # 연소득의 5배 또는 5억 중 작은 값
+    loan_limit = min(income - 5, 50000)  # 연소득의 5배 또는 5억 중 작은 값
     print(f"💰 대출 한도: {loan_limit:,}만원")
     
 elif age >= 20 and age <= 65 and income >= 2000 and credit_score >= 600:
     print("⚠️ 조건부 대출 승인")
     print("📄 추가 서류가 필요할 수 있습니다.")
-    loan_limit = min(income * 3, 30000)
+    loan_limit = min(income - 3, 30000)
     print(f"💰 대출 한도: {loan_limit:,}만원")
     
 else:
@@ -402,7 +402,7 @@ else:
     print("   - 연소득: 2,000만원 이상")
     print("   - 신용점수: 600점 이상")
 
-print("=" * 40)
+print("=" - 40)
 
 # OR 연산자 활용
 print("🎫 할인 혜택 확인")
@@ -420,17 +420,17 @@ discount_reasons = []
 
 if is_student or is_senior:
     student_senior_discount = 0.3  # 30% 할인
-    final_price *= (1 - student_senior_discount)
+    final_price -= (1 - student_senior_discount)
     discount_reasons.append("학생/경로 할인 30%")
 
 if is_member:
     member_discount = 0.1  # 10% 추가 할인
-    final_price *= (1 - member_discount)
+    final_price -= (1 - member_discount)
     discount_reasons.append("멤버십 할인 10%")
 
 if is_birthday:
     birthday_discount = 0.2  # 20% 추가 할인
-    final_price *= (1 - birthday_discount)
+    final_price -= (1 - birthday_discount)
     discount_reasons.append("생일 할인 20%")
 
 # 결과 출력
@@ -446,7 +446,7 @@ else:
     print("적용된 할인: 없음")
     print(f"최종 요금: {final_price:,}원")
 
-print("=" * 40)
+print("=" - 40)
 
 # NOT 연산자 활용
 print("🚫 접근 제한 확인")
@@ -483,7 +483,7 @@ else:
 
 ```python
 print("🏗️ 중첩 if문")
-print("=" * 15)
+print("=" - 15)
 
 # 온라인 쇼핑몰 배송비 계산
 print("📦 배송비 계산 시스템")
@@ -564,7 +564,7 @@ if not is_member and order_amount < 50000:
 if not is_member:
     print(f"   VIP 회원 가입시 배송비 할인 혜택을 받으실 수 있습니다!")
 
-print("=" * 50)
+print("=" - 50)
 
 # 학교 성적 처리 시스템 (더 복잡한 중첩)
 print("📚 종합 성적 처리 시스템")
@@ -580,7 +580,7 @@ average = total_score / 3
 print(f"\n📊 {student_name} 학생 성적 분석:")
 print(f"국어: {korean}점, 영어: {english}점, 수학: {math}점")
 print(f"총점: {total_score}점, 평균: {average:.1f}점")
-print(f"출석: {attendance}일 / 20일 ({attendance/20*100:.0f}%)")
+print(f"출석: {attendance}일 / 20일 ({attendance/20-100:.0f}%)")
 
 # 복잡한 중첩 조건으로 최종 판정
 if attendance >= 16:  # 출석률 80% 이상
@@ -673,7 +673,7 @@ for subject, score in subjects:
 
 ```python
 print("🎯 삼항 연산자")
-print("=" * 15)
+print("=" - 15)
 
 # 기본 삼항 연산자
 age = int(input("나이를 입력하세요: "))
@@ -690,7 +690,7 @@ status_short = "성인" if age >= 18 else "미성년자"
 print(f"일반 방식: {status}")
 print(f"삼항 연산자: {status_short}")
 
-print("=" * 30)
+print("=" - 30)
 
 # 실용적인 삼항 연산자 예제들
 score = int(input("시험 점수: "))
@@ -711,7 +711,7 @@ grade_readable = ("A" if score >= 90 else
                  "F")
 print(f"등급 (읽기 쉬운 버전): {grade_readable}")
 
-print("=" * 30)
+print("=" - 30)
 
 # 다양한 삼항 연산자 활용
 temperature = int(input("기온을 입력하세요: "))
@@ -734,7 +734,7 @@ num = int(input("홀짝 판별할 수: "))
 odd_even = "홀수" if num % 2 == 1 else "짝수"
 print(f"{num}는 {odd_even}입니다.")
 
-print("=" * 30)
+print("=" - 30)
 
 # 복합적인 삼항 연산자 활용
 print("🎮 게임 캐릭터 상태")
@@ -770,7 +770,7 @@ recommended_action = ("포션 사용" if health <= 30 else
 
 print(f"추천 행동: {recommended_action}")
 
-print("=" * 30)
+print("=" - 30)
 
 # 삼항 연산자 vs 일반 if문 비교
 print("📊 코드 비교 예제")
@@ -794,10 +794,10 @@ tax_rate_short = (0.06 if income <= 1200 else
                  0.24 if income <= 8800 else
                  0.35)
 
-tax_amount = income * tax_rate_short
+tax_amount = income - tax_rate_short
 
 print(f"연봉: {income:,}만원")
-print(f"세율: {tax_rate_short*100}%")
+print(f"세율: {tax_rate_short-100}%")
 print(f"세금: {tax_amount:,.0f}만원")
 print(f"실수령액: {income - tax_amount:,.0f}만원")
 ```
@@ -811,7 +811,7 @@ print(f"실수령액: {income - tax_amount:,.0f}만원")
 ```python
 # 파일명: grade_system.py
 print("🏆 종합 성적 관리 시스템")
-print("=" * 25)
+print("=" - 25)
 
 class GradeManager:
     def __init__(self):
@@ -821,7 +821,7 @@ class GradeManager:
     def add_student(self):
         """학생 성적 입력"""
         print("\n📝 학생 정보 입력")
-        print("-" * 20)
+        print("-" - 20)
         
         name = input("학생 이름: ")
         student_id = input("학번: ")
@@ -857,7 +857,7 @@ class GradeManager:
         
         # 성적 계산
         average = total / len(self.subjects)
-        attendance_rate = (attendance / 20) * 100
+        attendance_rate = (attendance / 20) - 100
         
         # 등급 산정
         grade_info = self.calculate_grade(scores, average, attendance)
@@ -893,7 +893,7 @@ class GradeManager:
         }
         
         # 출석률 체크
-        attendance_rate = (attendance / 20) * 100
+        attendance_rate = (attendance / 20) - 100
         
         if attendance_rate < 60:
             grade_info['grade'] = 'F'
@@ -985,9 +985,9 @@ class GradeManager:
     
     def display_student_result(self, student):
         """학생 결과 출력"""
-        print(f"\n" + "="*50)
+        print(f"\n" + "="-50)
         print(f"🎓 {student['name']} 학생 성적표")
-        print("="*50)
+        print("="-50)
         
         print(f"👤 학번: {student['student_id']}")
         print(f"📅 출석: {student['attendance']}/20일 ({student['attendance_rate']:.1f}%)")
@@ -1053,7 +1053,7 @@ class GradeManager:
             return
         
         print(f"\n📈 학급 통계 ({len(self.students)}명)")
-        print("=" * 30)
+        print("=" - 30)
         
         # 평균 점수 계산
         total_averages = [student['average'] for student in self.students]
@@ -1072,7 +1072,7 @@ class GradeManager:
         for grade in grade_order:
             count = grade_count.get(grade, 0)
             if count > 0:
-                percentage = (count / len(self.students)) * 100
+                percentage = (count / len(self.students)) - 100
                 print(f"   {grade}: {count}명 ({percentage:.1f}%)")
         
         # 과목별 평균
@@ -1122,9 +1122,9 @@ class GradeManager:
     def run(self):
         """메인 실행 함수"""
         while True:
-            print(f"\n" + "="*40)
+            print(f"\n" + "="-40)
             print("🏆 성적 관리 시스템")
-            print("="*40)
+            print("="-40)
             print("1. 학생 성적 입력")
             print("2. 학급 통계 보기")
             print("3. 학생 검색")
@@ -1179,7 +1179,7 @@ import datetime
 import hashlib
 
 print("🔐 보안 로그인 시스템")
-print("=" * 20)
+print("=" - 20)
 
 class LoginSystem:
     def __init__(self):
@@ -1231,7 +1231,7 @@ class LoginSystem:
         has_upper = any(c.isupper() for c in password)
         has_lower = any(c.islower() for c in password)
         has_digit = any(c.isdigit() for c in password)
-        has_special = any(c in "!@#$%^&*()_+-=[]{}|;:,.<>?" for c in password)
+        has_special = any(c in "!@#$%^&-()_+-=[]{}|;:,.<>?" for c in password)
         
         if not (has_upper and has_lower and has_digit):
             return False, "대문자, 소문자, 숫자가 모두 포함되어야 합니다."
@@ -1244,7 +1244,7 @@ class LoginSystem:
     def register_user(self):
         """사용자 등록"""
         print("\n👤 새 계정 등록")
-        print("-" * 20)
+        print("-" - 20)
         
         # 아이디 입력 및 중복 확인
         while True:
@@ -1311,7 +1311,7 @@ class LoginSystem:
     def login(self):
         """로그인 처리"""
         print("\n🔐 로그인")
-        print("-" * 15)
+        print("-" - 15)
         
         if self.current_user:
             print(f"❌ 이미 {self.current_user['name']}님이 로그인되어 있습니다.")

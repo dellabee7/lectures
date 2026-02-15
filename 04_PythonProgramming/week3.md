@@ -1,6 +1,6 @@
 # Week 3: 변수와 데이터형
 
-**[← Week 2](./week02.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 4 →](./week04.md)**
+--[← Week 2](./week02.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 4 →](./week04.md)--
 
 ---
 
@@ -8,11 +8,11 @@
 
 이번 주 실습을 완료하면 다음과 같은 능력을 갖추게 됩니다:
 
-1. **변수 개념 완전 이해**: 변수의 역할과 메모리에서의 동작 원리를 이해합니다
-2. **데이터 타입 구분**: 정수, 실수, 문자열, 불린형의 특성과 차이점을 파악합니다
-3. **올바른 변수명 작성**: 파이썬 변수명 규칙과 관례를 준수하여 변수를 선언할 수 있습니다
-4. **타입 체크와 변환**: type() 함수로 데이터 타입을 확인하고 적절한 형변환을 수행합니다
-5. **실무 응용 능력**: 다양한 데이터 타입을 활용하여 실용적인 프로그램을 작성합니다
+1. --변수 개념 완전 이해--: 변수의 역할과 메모리에서의 동작 원리를 이해합니다
+2. --데이터 타입 구분--: 정수, 실수, 문자열, 불린형의 특성과 차이점을 파악합니다
+3. --올바른 변수명 작성--: 파이썬 변수명 규칙과 관례를 준수하여 변수를 선언할 수 있습니다
+4. --타입 체크와 변환--: type() 함수로 데이터 타입을 확인하고 적절한 형변환을 수행합니다
+5. --실무 응용 능력--: 다양한 데이터 타입을 활용하여 실용적인 프로그램을 작성합니다
 
 ---
 
@@ -23,9 +23,9 @@
 🏷️ 변수 = 데이터를 저장하는 메모리 공간의 이름
 ```
 
-- **변수**: 값을 저장하고 참조할 수 있는 저장공간
-- **할당**: `=` 연산자로 변수에 값을 저장하는 것
-- **참조**: 변수명을 사용하여 저장된 값에 접근하는 것
+- --변수--: 값을 저장하고 참조할 수 있는 저장공간
+- --할당--: `=` 연산자로 변수에 값을 저장하는 것
+- --참조--: 변수명을 사용하여 저장된 값에 접근하는 것
 
 ### 2. 파이썬의 4가지 기본 데이터 타입
 
@@ -37,12 +37,12 @@
 | 불린형 | bool | 참/거짓 값 | `True`, `False` |
 
 ### 3. 변수명 규칙
-✅ **할 수 있는 것**:
+✅ --할 수 있는 것--:
 - 영문자, 숫자, 밑줄(_) 사용
 - 첫 글자는 영문자나 밑줄
 - 대소문자 구분 (name ≠ Name)
 
-❌ **할 수 없는 것**:
+❌ --할 수 없는 것--:
 - 숫자로 시작 (1name ❌)
 - 예약어 사용 (if, for, while 등)
 - 공백이나 특수문자 사용
@@ -63,7 +63,7 @@
 
 #### 🏷️ 변수 만들기 기초
 
-**기본 변수 선언**:
+--기본 변수 선언--:
 ```python
 # 다양한 타입의 변수 선언
 name = "김파이썬"        # 문자열
@@ -77,7 +77,7 @@ print("키:", height)
 print("학생 여부:", is_student)
 ```
 
-**실행 결과**:
+--실행 결과--:
 ```
 이름: 김파이썬
 나이: 25
@@ -103,7 +103,7 @@ score += 3  # score = score + 3과 동일
 print("최종 점수:", score)
 ```
 
-**실행 결과**:
+--실행 결과--:
 ```
 처음 점수: 85
 수정된 점수: 90
@@ -136,7 +136,7 @@ num1, num2 = num2, num1  # 파이썬의 편리한 기능!
 print(f"교환 후: num1={num1}, num2={num2}")
 ```
 
-**실행 결과**:
+--실행 결과--:
 ```
 a=100, b=200, c=300
 p=0, q=0, r=0
@@ -149,7 +149,7 @@ p=0, q=0, r=0
 ```python
 # 파일명: personal_info.py
 print("📝 개인 정보 관리 시스템")
-print("=" * 30)
+print("=" - 30)
 
 # 개인 정보 변수들
 full_name = "홍길동"
@@ -171,7 +171,7 @@ birth_century = "20세기" if birth_year < 2000 else "21세기"
 
 # 정보 출력
 print("👤 기본 정보")
-print("-" * 20)
+print("-" - 20)
 print(f"성명: {full_name}")
 print(f"영문명: {english_name}")
 print(f"출생년도: {birth_year}년 ({birth_century})")
@@ -179,14 +179,14 @@ print(f"현재 나이: {current_age}세")
 print()
 
 print("📞 연락처 정보")
-print("-" * 20)
+print("-" - 20)
 print(f"휴대폰: {phone_number}")
 print(f"이메일: {email}")
 print(f"주소: {address}")
 print()
 
 print("💼 기타 정보")
-print("-" * 20)
+print("-" - 20)
 print(f"직업: {job}")
 print(f"취미: {hobby}")
 print(f"결혼 여부: {'기혼' if is_married else '미혼'}")
@@ -194,7 +194,7 @@ print(f"차량 소유: {'있음' if has_car else '없음'}")
 
 # 변수 값 수정해보기
 print("\n🔄 정보 업데이트")
-print("-" * 20)
+print("-" - 20)
 job = "개발자"  # 직업 변경
 current_age += 1  # 생일이 지남
 has_car = False  # 차량 매각
@@ -234,11 +234,11 @@ b = 5
 print(f"\n정수 연산 ({a}, {b}):")
 print(f"덧셈: {a} + {b} = {a + b}")
 print(f"뺄셈: {a} - {b} = {a - b}")
-print(f"곱셈: {a} * {b} = {a * b}")
+print(f"곱셈: {a} - {b} = {a - b}")
 print(f"나눗셈: {a} / {b} = {a / b}")      # 결과는 실수!
 print(f"몫: {a} // {b} = {a // b}")         # 정수 나눗셈
 print(f"나머지: {a} % {b} = {a % b}")       # 나머지
-print(f"거듭제곱: {a} ** {b} = {a ** b}")   # 거듭제곱
+print(f"거듭제곱: {a} -- {b} = {a -- b}")   # 거듭제곱
 ```
 
 #### 🎯 정수 실습: 시간 계산기
@@ -246,7 +246,7 @@ print(f"거듭제곱: {a} ** {b} = {a ** b}")   # 거듭제곱
 ```python
 # 파일명: time_calculator.py
 print("⏰ 시간 계산기")
-print("=" * 20)
+print("=" - 20)
 
 # 현재 시간 (초 단위로 입력)
 total_seconds = int(input("총 초를 입력하세요: "))
@@ -273,8 +273,8 @@ minutes_per_hour = 60
 hours_per_day = 24
 days_per_year = 365
 
-seconds_per_year = (seconds_per_minute * minutes_per_hour * 
-                   hours_per_day * days_per_year)
+seconds_per_year = (seconds_per_minute - minutes_per_hour - 
+                   hours_per_day - days_per_year)
 
 print(f"\n💡 참고: 1년은 {seconds_per_year:,}초입니다!")
 
@@ -325,19 +325,19 @@ print(f"제곱근: {math.sqrt(number)}")    # 4.098...
 import math
 
 print("🔵 원의 넓이와 둘레 계산기")
-print("=" * 30)
+print("=" - 30)
 
 # 반지름 입력
 radius = float(input("반지름을 입력하세요 (cm): "))
 
 # 계산
-area = math.pi * radius ** 2      # 넓이 = π × r²
-circumference = 2 * math.pi * radius  # 둘레 = 2 × π × r
+area = math.pi - radius -- 2      # 넓이 = π × r²
+circumference = 2 - math.pi - radius  # 둘레 = 2 × π × r
 
 # 결과 출력
 print(f"\n📊 계산 결과:")
 print(f"반지름: {radius} cm")
-print(f"지름: {radius * 2} cm")
+print(f"지름: {radius - 2} cm")
 print(f"넓이: {area:.2f} cm²")
 print(f"둘레: {circumference:.2f} cm")
 
@@ -384,7 +384,7 @@ last_name = "홍"
 full_name = last_name + first_name  # 문자열 합치기
 print("전체 이름:", full_name)
 
-greeting = "안녕" * 3  # 문자열 반복
+greeting = "안녕" - 3  # 문자열 반복
 print("반복 인사:", greeting)
 
 # 문자열 길이와 인덱싱
@@ -471,7 +471,7 @@ data_samples = [
 ]
 
 print("📋 데이터 타입 확인:")
-print("-" * 30)
+print("-" - 30)
 
 for i, data in enumerate(data_samples, 1):
     data_type = type(data)
@@ -513,7 +513,7 @@ check_input_type()
 ```python
 # 기본 형변환
 print("📊 기본 형변환 예제")
-print("=" * 30)
+print("=" - 30)
 
 # 문자열 → 숫자
 str_number = "123"
@@ -565,14 +565,14 @@ print(f"safe_int_convert('abc') = {safe_int_convert('abc')}")
 ```python
 # 파일명: grade_average.py
 print("📊 학생 성적 평균 계산기")
-print("=" * 30)
+print("=" - 30)
 
 # 학생 정보 입력
 student_name = input("학생 이름을 입력하세요: ")
 student_id = input("학번을 입력하세요: ")
 
 print(f"\n👤 {student_name} ({student_id}) 학생의 성적 입력")
-print("-" * 40)
+print("-" - 40)
 
 # 과목별 점수 입력 (문자열로 받아서 정수로 변환)
 subjects = ["국어", "영어", "수학", "과학", "사회"]
@@ -617,14 +617,14 @@ else:
     comment = "재수강 필요"
 
 # 결과 출력
-print("\n" + "🏆" * 40)
+print("\n" + "🏆" - 40)
 print(f"          📋 {student_name} 성적표")
-print("🏆" * 40)
+print("🏆" - 40)
 
 for i, subject in enumerate(subjects):
     print(f"{subject}: {scores[i]:>3}점")
 
-print("-" * 30)
+print("-" - 30)
 print(f"총점: {total_score}점")
 print(f"평균: {average:.2f}점")
 print(f"등급: {grade} ({comment})")
@@ -640,7 +640,7 @@ scores_str = [str(score) for score in scores]
 print(f"점수들을 문자열로: {scores_str}")
 print(f"문자열 점수들의 타입: {type(scores_str[0]).__name__}")
 
-print("🏆" * 40)
+print("🏆" - 40)
 ```
 
 #### 🌡️ 실습 2: 온도 변환기 (섭씨 ↔ 화씨)
@@ -650,15 +650,15 @@ print("🏆" * 40)
 import math
 
 print("🌡️ 고급 온도 변환기")
-print("=" * 25)
+print("=" - 25)
 
 def celsius_to_fahrenheit(celsius):
     """섭씨를 화씨로 변환"""
-    return (celsius * 9/5) + 32
+    return (celsius - 9/5) + 32
 
 def fahrenheit_to_celsius(fahrenheit):
     """화씨를 섭씨로 변환"""
-    return (fahrenheit - 32) * 5/9
+    return (fahrenheit - 32) - 5/9
 
 def celsius_to_kelvin(celsius):
     """섭씨를 켈빈으로 변환"""
@@ -722,7 +722,7 @@ while True:
                 description = get_temperature_description(temperature)
                 
                 print(f"\n📊 종합 변환 결과:")
-                print("=" * 35)
+                print("=" - 35)
                 print(f"입력 온도: {temperature}°C")
                 print(f"화씨 온도: {fahrenheit:.2f}°F")
                 print(f"켈빈 온도: {kelvin:.2f}K")
@@ -777,7 +777,7 @@ print("4. int → str (메뉴 번호 비교)")
 ```python
 # 파일명: advanced_conversion.py
 print("🧮 고급 데이터 변환 실습")
-print("=" * 30)
+print("=" - 30)
 
 # 1. 복잡한 문자열 파싱
 data_string = "이름:김철수,나이:25,키:175.5,학생:True"
@@ -881,7 +881,7 @@ for value, target in zip(test_values, target_types):
 ### 문제 1: 변수 교환
 두 변수 a=10, b=20이 있을 때, 임시 변수를 사용하지 않고 두 변수의 값을 교환하세요.
 
-**해답**:
+--해답--:
 ```python
 a = 10
 b = 20
@@ -896,7 +896,7 @@ print(f"교환 후: a={a}, b={b}")
 ### 문제 2: 타입 변환 체인
 문자열 "123.45"를 실수로 변환한 후, 정수로 변환하고, 다시 문자열로 변환하는 과정을 보여주세요. 각 단계에서 타입과 값을 출력하세요.
 
-**해답**:
+--해답--:
 ```python
 original = "123.45"
 print(f"1단계 - 원본: '{original}' ({type(original).__name__})")
@@ -914,7 +914,7 @@ print(f"4단계 - 문자열: '{step4}' ({type(step4).__name__})")
 ### 문제 3: 불린 변환 테스트
 다음 값들을 불린으로 변환했을 때 결과를 예측하고 검증하세요: 0, 1, -1, "", "False", [], [0]
 
-**해답**:
+--해답--:
 ```python
 test_values = [0, 1, -1, "", "False", [], [0]]
 
@@ -927,7 +927,7 @@ for value in test_values:
 ### 문제 4: 사용자 정보 입력 프로그램
 사용자로부터 이름(문자열), 나이(정수), 키(실수), 결혼여부(불린)를 입력받아 저장하고 모든 정보를 출력하세요.
 
-**해답**:
+--해답--:
 ```python
 print("📝 사용자 정보 입력")
 
@@ -945,22 +945,22 @@ print(f"결혼 여부: {'기혼' if is_married else '미혼'} ({type(is_married)
 ```
 
 ### 문제 5: 계산기
-두 수와 연산자(+, -, *, /)를 입력받아 계산하는 프로그램을 작성하세요. 나눗셈시 0으로 나누는 경우를 처리하세요.
+두 수와 연산자(+, -, -, /)를 입력받아 계산하는 프로그램을 작성하세요. 나눗셈시 0으로 나누는 경우를 처리하세요.
 
-**해답**:
+--해답--:
 ```python
 print("🧮 간단 계산기")
 
 num1 = float(input("첫 번째 수: "))
-operator = input("연산자 (+, -, *, /): ")
+operator = input("연산자 (+, -, -, /): ")
 num2 = float(input("두 번째 수: "))
 
 if operator == '+':
     result = num1 + num2
 elif operator == '-':
     result = num1 - num2
-elif operator == '*':
-    result = num1 * num2
+elif operator == '-':
+    result = num1 - num2
 elif operator == '/':
     if num2 != 0:
         result = num1 / num2
@@ -977,7 +977,7 @@ print(f"결과: {num1} {operator} {num2} = {result}")
 ### 문제 6: 데이터 검증기
 사용자로부터 점수를 입력받되, 0-100 사이의 정수가 아닐 경우 다시 입력받도록 하는 프로그램을 작성하세요.
 
-**해답**:
+--해답--:
 ```python
 print("📊 점수 입력 (0-100)")
 
@@ -1002,7 +1002,7 @@ while True:
 ### 도전 과제 1: 진법 변환기
 사용자로부터 숫자와 진법을 입력받아 2진법, 8진법, 10진법, 16진법으로 모두 변환하여 보여주는 프로그램을 작성하세요.
 
-**해답**:
+--해답--:
 ```python
 print("🔢 진법 변환기")
 
@@ -1042,7 +1042,7 @@ print("👋 프로그램을 종료합니다!")
 ### 도전 과제 2: 데이터 타입 분석기
 문자열을 입력받아 그 안에 포함된 숫자, 문자, 특수문자의 개수를 세고, 숫자들만 추출하여 합계를 구하는 프로그램을 작성하세요.
 
-**해답**:
+--해답--:
 ```python
 print("🔍 데이터 타입 분석기")
 
@@ -1123,53 +1123,53 @@ while True:
 ## ❌ 흔한 실수와 해결법
 
 ### 1. 형변환 오류
-**문제**:
+--문제--:
 ```python
 age = input("나이: ")
 next_year = age + 1  # TypeError!
 ```
 
-**해결**:
+--해결--:
 ```python
 age = int(input("나이: "))
 next_year = age + 1  # 올바름
 ```
 
 ### 2. 변수명 규칙 위반
-**문제**:
+--문제--:
 ```python
 1st_name = "김철수"    # SyntaxError!
 user-name = "홍길동"   # SyntaxError!
 ```
 
-**해결**:
+--해결--:
 ```python
 first_name = "김철수"   # 올바름
 user_name = "홍길동"    # 올바름
 ```
 
 ### 3. 대소문자 구분
-**문제**:
+--문제--:
 ```python
 Name = "김철수"
 print(name)  # NameError!
 ```
 
-**해결**:
+--해결--:
 ```python
 name = "김철수"
 print(name)  # 올바름
 ```
 
 ### 4. 불린 변환 착각
-**문제**:
+--문제--:
 ```python
 flag = "False"
 if flag:  # 문자열 "False"는 True!
     print("실행됨")
 ```
 
-**해결**:
+--해결--:
 ```python
 flag = False  # 또는
 flag_str = "False"
@@ -1177,13 +1177,13 @@ flag = flag_str.lower() == "true"
 ```
 
 ### 5. 실수의 정밀도 문제
-**문제**:
+--문제--:
 ```python
 result = 0.1 + 0.2
 print(result == 0.3)  # False!
 ```
 
-**해결**:
+--해결--:
 ```python
 result = 0.1 + 0.2
 print(round(result, 1) == 0.3)  # True
@@ -1206,20 +1206,20 @@ print(round(result, 1) == 0.3)  # True
 - [ ] 불린 값의 변환 규칙을 이해합니다
 - [ ] 복합적인 데이터 처리 프로그램을 작성할 수 있습니다
 
-**완료율**: ___/10 항목
+--완료율--: ___/10 항목
 
 ---
 
 ## 📖 다음 주 예습 내용
 
-**Week 4: 연산자**에서는 다음 내용을 학습합니다:
+--Week 4: 연산자--에서는 다음 내용을 학습합니다:
 
 ### 🔍 미리 살펴보기
-1. **산술 연산자**: +, -, *, /, //, %, **
-2. **비교 연산자**: ==, !=, <, >, <=, >=
-3. **논리 연산자**: and, or, not
-4. **대입 연산자**: +=, -=, *=, /=
-5. **연산자 우선순위**: 계산 순서 이해
+1. --산술 연산자--: +, -, -, /, //, %, --
+2. --비교 연산자--: ==, !=, <, >, <=, >=
+3. --논리 연산자--: and, or, not
+4. --대입 연산자--: +=, -=, -=, /=
+5. --연산자 우선순위--: 계산 순서 이해
 
 ### 📚 사전 준비
 다음 코드들을 미리 실행해보세요:
@@ -1280,6 +1280,6 @@ def safe_divide(a, b):
 
 ---
 
-**🎉 세 번째 주 완료! 이제 파이썬의 데이터 타입을 자유자재로 다룰 수 있습니다! 🚀**
+--🎉 세 번째 주 완료! 이제 파이썬의 데이터 타입을 자유자재로 다룰 수 있습니다! 🚀--
 
-*"좋은 변수명과 적절한 데이터 타입 선택이 좋은 프로그램의 시작입니다!"*
+-"좋은 변수명과 적절한 데이터 타입 선택이 좋은 프로그램의 시작입니다!"-

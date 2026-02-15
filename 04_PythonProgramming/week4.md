@@ -1,6 +1,6 @@
 # Week 4: 연산자
 
-**[← Week 3](./week03.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 5 →](./week05.md)**
+--[← Week 3](./week03.md) | [목차](lecture/04_PythonProgramming/2.%20lectureMap.md) | [다음: Week 5 →](./week05.md)--
 
 ---
 
@@ -8,12 +8,12 @@
 
 이번 주 실습을 완료하면 다음과 같은 능력을 갖추게 됩니다:
 
-1. **산술 연산자 완전 정복**: 기본 연산부터 고급 연산까지 모든 수학 계산을 수행합니다
-2. **비교 연산자 활용**: 값들 간의 크기와 동등성을 비교하여 조건을 만듭니다
-3. **논리 연산자 마스터**: 복잡한 조건문을 만들기 위해 논리 연산을 조합합니다
-4. **대입 연산자 숙련**: 효율적인 값 할당과 축약 연산자를 활용합니다
-5. **연산자 우선순위 이해**: 복잡한 표현식에서 정확한 계산 순서를 파악합니다
-6. **실용적 계산기 제작**: 배운 연산자들을 조합하여 실무에 활용할 수 있는 프로그램을 작성합니다
+1. --산술 연산자 완전 정복--: 기본 연산부터 고급 연산까지 모든 수학 계산을 수행합니다
+2. --비교 연산자 활용--: 값들 간의 크기와 동등성을 비교하여 조건을 만듭니다
+3. --논리 연산자 마스터--: 복잡한 조건문을 만들기 위해 논리 연산을 조합합니다
+4. --대입 연산자 숙련--: 효율적인 값 할당과 축약 연산자를 활용합니다
+5. --연산자 우선순위 이해--: 복잡한 표현식에서 정확한 계산 순서를 파악합니다
+6. --실용적 계산기 제작--: 배운 연산자들을 조합하여 실무에 활용할 수 있는 프로그램을 작성합니다
 
 ---
 
@@ -30,21 +30,21 @@
 
 | 분류 | 연산자 | 기능 | 예시 |
 |------|--------|------|------|
-| 산술 | `+`, `-`, `*`, `/` | 기본 사칙연산 | `5 + 3 = 8` |
-| 산술 | `//`, `%`, `**` | 몫, 나머지, 거듭제곱 | `7 // 2 = 3` |
+| 산술 | `+`, `-`, `-`, `/` | 기본 사칙연산 | `5 + 3 = 8` |
+| 산술 | `//`, `%`, `--` | 몫, 나머지, 거듭제곱 | `7 // 2 = 3` |
 | 비교 | `==`, `!=`, `<`, `>` | 값 비교 | `5 > 3 = True` |
 | 비교 | `<=`, `>=` | 크거나같음, 작거나같음 | `5 >= 5 = True` |
 | 논리 | `and`, `or`, `not` | 논리 연산 | `True and False = False` |
 | 대입 | `=`, `+=`, `-=` | 값 할당 | `x += 1` |
-| 대입 | `*=`, `/=`, `//=`, `%=` | 축약 대입 | `x *= 2` |
+| 대입 | `-=`, `/=`, `//=`, `%=` | 축약 대입 | `x -= 2` |
 
 ### 3. 연산자 우선순위 (높음 → 낮음)
 
 | 순위 | 연산자 | 설명 |
 |------|--------|------|
-| 1 | `**` | 거듭제곱 |
+| 1 | `--` | 거듭제곱 |
 | 2 | `+x`, `-x`, `not x` | 단항 연산자 |
-| 3 | `*`, `/`, `//`, `%` | 곱셈, 나눗셈 |
+| 3 | `-`, `/`, `//`, `%` | 곱셈, 나눗셈 |
 | 4 | `+`, `-` | 덧셈, 뺄셈 |
 | 5 | `==`, `!=`, `<`, `>`, `<=`, `>=` | 비교 연산자 |
 | 6 | `and` | 논리곱 |
@@ -52,9 +52,9 @@
 | 8 | `=`, `+=`, `-=`, etc. | 대입 연산자 |
 
 ### 4. 기본 개념
-- **연산 결과 타입**: 정수끼리 연산해도 `/`는 실수 결과
-- **단축 평가**: `and`와 `or`는 필요한 만큼만 계산
-- **체이닝**: `a < b < c` 형태의 연속 비교 가능
+- --연산 결과 타입--: 정수끼리 연산해도 `/`는 실수 결과
+- --단축 평가--: `and`와 `or`는 필요한 만큼만 계산
+- --체이닝--: `a < b < c` 형태의 연속 비교 가능
 
 ---
 
@@ -64,14 +64,14 @@
 
 #### 🧮 기본 사칙연산
 
-**기본 산술 연산 실습**:
+--기본 산술 연산 실습--:
 ```python
 # 기본 변수 설정
 a = 17
 b = 5
 
 print("🧮 기본 산술 연산")
-print("=" * 20)
+print("=" - 20)
 print(f"a = {a}, b = {b}")
 print()
 
@@ -79,12 +79,12 @@ print()
 print("📊 사칙연산 결과:")
 addition = a + b
 subtraction = a - b
-multiplication = a * b
+multiplication = a - b
 division = a / b
 
 print(f"덧셈: {a} + {b} = {addition}")
 print(f"뺄셈: {a} - {b} = {subtraction}")
-print(f"곱셈: {a} * {b} = {multiplication}")
+print(f"곱셈: {a} - {b} = {multiplication}")
 print(f"나눗셈: {a} / {b} = {division}")
 
 # 결과 타입 확인
@@ -93,7 +93,7 @@ print(f"덧셈 결과 타입: {type(addition).__name__}")
 print(f"나눗셈 결과 타입: {type(division).__name__}")  # 항상 float!
 ```
 
-**실행 결과**:
+--실행 결과--:
 ```
 🧮 기본 산술 연산
 ====================
@@ -102,7 +102,7 @@ a = 17, b = 5
 📊 사칙연산 결과:
 덧셈: 17 + 5 = 22
 뺄셈: 17 - 5 = 12
-곱셈: 17 * 5 = 85
+곱셈: 17 - 5 = 85
 나눗셈: 17 / 5 = 3.4
 
 🔍 결과 타입:
@@ -114,7 +114,7 @@ a = 17, b = 5
 
 ```python
 print("⚡ 특수 산술 연산자")
-print("=" * 25)
+print("=" - 25)
 
 a = 17
 b = 5
@@ -130,11 +130,11 @@ print(f"몫은 소수점을 버린 정수부분입니다.")
 remainder = a % b
 print(f"\n나머지 연산: {a} % {b} = {remainder}")
 print(f"검증: {a} = {b} × {floor_division} + {remainder}")
-print(f"검증 결과: {b * floor_division + remainder} = {a}")
+print(f"검증 결과: {b - floor_division + remainder} = {a}")
 
-# 거듭제곱 (**)
-power_result = a ** c
-print(f"\n거듭제곱: {a} ** {c} = {power_result}")
+# 거듭제곱 (--)
+power_result = a -- c
+print(f"\n거듭제곱: {a} -- {c} = {power_result}")
 print(f"즉, {a}의 {c}제곱 = {power_result}")
 
 # 음수와의 연산
@@ -148,7 +148,7 @@ print(f"\n실수 몫 연산: {float_num} // {b} = {float_num // b}")
 print(f"실수 나머지: {float_num} % {b} = {float_num % b}")
 ```
 
-**실행 결과**:
+--실행 결과--:
 ```
 ⚡ 특수 산술 연산자
 =========================
@@ -160,7 +160,7 @@ print(f"실수 나머지: {float_num} % {b} = {float_num % b}")
 검증: 17 = 5 × 3 + 2
 검증 결과: 17 = 17
 
-거듭제곱: 17 ** 2 = 289
+거듭제곱: 17 -- 2 = 289
 즉, 17의 2제곱 = 289
 
 음수와의 몫 연산: -17 // 5 = -4
@@ -174,38 +174,38 @@ print(f"실수 나머지: {float_num} % {b} = {float_num % b}")
 
 ```python
 print("🔢 연산자 우선순위")
-print("=" * 20)
+print("=" - 20)
 
 # 기본 우선순위
-expression1 = 2 + 3 * 4
-print(f"2 + 3 * 4 = {expression1}")  # 곱셈이 먼저: 2 + 12 = 14
+expression1 = 2 + 3 - 4
+print(f"2 + 3 - 4 = {expression1}")  # 곱셈이 먼저: 2 + 12 = 14
 
 # 괄호로 우선순위 변경
-expression2 = (2 + 3) * 4
-print(f"(2 + 3) * 4 = {expression2}")  # 괄호가 먼저: 5 * 4 = 20
+expression2 = (2 + 3) - 4
+print(f"(2 + 3) - 4 = {expression2}")  # 괄호가 먼저: 5 - 4 = 20
 
 # 복잡한 계산
-complex_expr = 2 ** 3 ** 2  # 거듭제곱은 우측부터
-print(f"2 ** 3 ** 2 = {complex_expr}")  # 2 ** (3 ** 2) = 2 ** 9 = 512
+complex_expr = 2 -- 3 -- 2  # 거듭제곱은 우측부터
+print(f"2 -- 3 -- 2 = {complex_expr}")  # 2 -- (3 -- 2) = 2 -- 9 = 512
 
-complex_expr2 = (2 ** 3) ** 2
-print(f"(2 ** 3) ** 2 = {complex_expr2}")  # (8) ** 2 = 64
+complex_expr2 = (2 -- 3) -- 2
+print(f"(2 -- 3) -- 2 = {complex_expr2}")  # (8) -- 2 = 64
 
 # 혼합 연산
-mixed = 10 + 15 // 4 * 2 - 3 ** 2
-print(f"\n혼합 연산: 10 + 15 // 4 * 2 - 3 ** 2")
+mixed = 10 + 15 // 4 - 2 - 3 -- 2
+print(f"\n혼합 연산: 10 + 15 // 4 - 2 - 3 -- 2")
 print(f"계산 순서:")
-print(f"1. 거듭제곱: 3 ** 2 = 9")
+print(f"1. 거듭제곱: 3 -- 2 = 9")
 print(f"2. 몫 연산: 15 // 4 = 3") 
-print(f"3. 곱셈: 3 * 2 = 6")
+print(f"3. 곱셈: 3 - 2 = 6")
 print(f"4. 덧셈: 10 + 6 = 16")
 print(f"5. 뺄셈: 16 - 9 = 7")
 print(f"최종 결과: {mixed}")
 
 # 단항 연산자
-unary_expr = -2 ** 4  # -(2**4) = -16
-print(f"\n-2 ** 4 = {unary_expr}")  # 주의: (-2)**4 = 16과 다름!
-print(f"(-2) ** 4 = {(-2) ** 4}")
+unary_expr = -2 -- 4  # -(2--4) = -16
+print(f"\n-2 -- 4 = {unary_expr}")  # 주의: (-2)--4 = 16과 다름!
+print(f"(-2) -- 4 = {(-2) -- 4}")
 ```
 
 #### 🎯 실습: 다기능 계산기
@@ -213,7 +213,7 @@ print(f"(-2) ** 4 = {(-2) ** 4}")
 ```python
 # 파일명: basic_calculator.py
 print("🧮 다기능 기본 계산기")
-print("=" * 25)
+print("=" - 25)
 
 def display_menu():
     """계산기 메뉴 출력"""
@@ -233,7 +233,7 @@ def basic_arithmetic():
     print(f"\n📊 계산 결과:")
     print(f"{a} + {b} = {a + b}")
     print(f"{a} - {b} = {a - b}")
-    print(f"{a} × {b} = {a * b}")
+    print(f"{a} × {b} = {a - b}")
     
     if b != 0:
         print(f"{a} ÷ {b} = {a / b}")
@@ -246,7 +246,7 @@ def power_calculation():
     base = float(input("밑수를 입력하세요: "))
     exponent = int(input("지수를 입력하세요: "))
     
-    result = base ** exponent
+    result = base -- exponent
     print(f"\n📊 계산 결과:")
     print(f"{base} ^ {exponent} = {result}")
     
@@ -274,7 +274,7 @@ def quotient_remainder():
     print(f"\n📊 계산 결과:")
     print(f"{dividend} ÷ {divisor} = 몫: {quotient}, 나머지: {remainder}")
     print(f"검증: {dividend} = {divisor} × {quotient} + {remainder}")
-    print(f"검증 결과: {divisor * quotient + remainder}")
+    print(f"검증 결과: {divisor - quotient + remainder}")
     
     # 활용 예시
     if remainder == 0:
@@ -285,8 +285,8 @@ def quotient_remainder():
 def complex_calculation():
     """복합 계산"""
     print("\n🧠 복합 계산")
-    print("수식을 입력하세요 (예: 2 + 3 * 4)")
-    print("사용 가능한 연산자: +, -, *, /, //, %, **")
+    print("수식을 입력하세요 (예: 2 + 3 - 4)")
+    print("사용 가능한 연산자: +, -, -, /, //, %, --")
     
     expression = input("수식: ")
     
@@ -338,7 +338,7 @@ while True:
 
 ```python
 print("⚖️ 비교 연산자")
-print("=" * 15)
+print("=" - 15)
 
 # 기본 비교 연산
 a = 10
@@ -395,7 +395,7 @@ print(f"5 < 10 > 15 < 20 : {5 < 10 > 15 < 20}")   # False
 
 ```python
 print("🧠 논리 연산자")
-print("=" * 15)
+print("=" - 15)
 
 # 기본 불린 값
 p = True
@@ -469,12 +469,12 @@ print(f"결과: {result3}")
 ```python
 # 파일명: complex_conditions.py
 print("🎯 복합 조건문 실습")
-print("=" * 20)
+print("=" - 20)
 
 def check_grade_eligibility():
     """성적 기반 자격 검사"""
     print("\n📊 대학 입학 자격 검사")
-    print("-" * 25)
+    print("-" - 25)
     
     # 성적 입력
     korean = int(input("국어 점수 (0-100): "))
@@ -516,7 +516,7 @@ def check_grade_eligibility():
 def weather_activity_advisor():
     """날씨 기반 활동 추천"""
     print("\n🌤️ 날씨 기반 활동 추천")
-    print("-" * 25)
+    print("-" - 25)
     
     # 날씨 정보 입력
     temperature = int(input("온도 (°C): "))
@@ -578,7 +578,7 @@ def weather_activity_advisor():
 def password_strength_checker():
     """비밀번호 강도 검사"""
     print("\n🔒 비밀번호 강도 검사")
-    print("-" * 25)
+    print("-" - 25)
     
     password = input("비밀번호를 입력하세요: ")
     
@@ -587,7 +587,7 @@ def password_strength_checker():
     has_upper = any(c.isupper() for c in password)
     has_lower = any(c.islower() for c in password)
     has_digit = any(c.isdigit() for c in password)
-    has_special = any(c in "!@#$%^&*()_+-=[]{}|;:,.<>?" for c in password)
+    has_special = any(c in "!@#$%^&-()_+-=[]{}|;:,.<>?" for c in password)
     
     print(f"\n📋 조건 검사:")
     print(f"길이 8자 이상: {has_length}")
@@ -621,13 +621,13 @@ def password_strength_checker():
     if not has_digit:
         print("💡 제안: 숫자를 추가하세요.")
     if not has_special:
-        print("💡 제안: 특수문자(!@#$%^&* 등)를 추가하세요.")
+        print("💡 제안: 특수문자(!@#$%^&- 등)를 추가하세요.")
 
 # 메인 실행
 while True:
-    print("\n" + "="*40)
+    print("\n" + "="-40)
     print("🎯 복합 조건문 실습 메뉴")
-    print("="*40)
+    print("="-40)
     print("1. 성적 기반 입학 자격 검사")
     print("2. 날씨 기반 활동 추천")
     print("3. 비밀번호 강도 검사")
@@ -661,7 +661,7 @@ while True:
 import math
 
 print("🔬 과학 계산기")
-print("=" * 15)
+print("=" - 15)
 
 class ScientificCalculator:
     def __init__(self):
@@ -681,11 +681,11 @@ class ScientificCalculator:
         operations = {
             '+': a + b,
             '-': a - b,
-            '*': a * b,
+            '-': a - b,
             '/': a / b if b != 0 else "오류: 0으로 나눌 수 없음",
             '//': a // b if b != 0 else "오류: 0으로 나눌 수 없음",
             '%': a % b if b != 0 else "오류: 0으로 나눌 수 없음",
-            '**': a ** b
+            '--': a -- b
         }
         
         print(f"\n📊 모든 연산 결과:")
@@ -752,7 +752,7 @@ class ScientificCalculator:
         
         # 거듭제곱
         exponent = float(input("지수: "))
-        power_result = base ** exponent
+        power_result = base -- exponent
         print(f"{base}^{exponent} = {power_result}")
         self.add_to_history(f"{base}^{exponent}", power_result)
         
@@ -765,7 +765,7 @@ class ScientificCalculator:
             # n제곱근
             n = int(input(f"{base}의 몇 제곱근을 구할까요? "))
             if n != 0:
-                nth_root = base ** (1/n)
+                nth_root = base -- (1/n)
                 print(f"{n}√{base} = {nth_root}")
                 self.add_to_history(f"{n}√{base}", nth_root)
         else:
@@ -790,7 +790,7 @@ class ScientificCalculator:
         select = int(input("선택할 개수 (r): "))
         
         if 0 <= select <= total:
-            # 조합 nCr = n! / (r! * (n-r)!)
+            # 조합 nCr = n! / (r! - (n-r)!)
             combination = math.comb(total, select)
             print(f"C({total},{select}) = {combination}")
             self.add_to_history(f"C({total},{select})", combination)
@@ -821,7 +821,7 @@ class ScientificCalculator:
             mean = total / n
             
             # 분산과 표준편차
-            variance = sum((x - mean) ** 2 for x in data) / n
+            variance = sum((x - mean) -- 2 for x in data) / n
             std_dev = math.sqrt(variance)
             
             # 최대값, 최소값
@@ -898,10 +898,10 @@ class ScientificCalculator:
     def run(self):
         """메인 실행 함수"""
         while True:
-            print("\n" + "="*50)
+            print("\n" + "="-50)
             print("🔬 과학 계산기 메뉴")
-            print("="*50)
-            print("1. 기본 연산 (+, -, *, /, //, %, **)")
+            print("="-50)
+            print("1. 기본 연산 (+, -, -, /, //, %, --)")
             print("2. 삼각함수 (sin, cos, tan)")
             print("3. 로그 함수 (ln, log10, log2)")
             print("4. 거듭제곱과 근호")
@@ -952,12 +952,12 @@ if __name__ == "__main__":
 ```python
 # 파일명: condition_checker.py
 print("🎯 조건 판별 시스템")
-print("=" * 20)
+print("=" - 20)
 
 def check_triangle_type():
     """삼각형 종류 판별"""
     print("\n📐 삼각형 종류 판별")
-    print("-" * 20)
+    print("-" - 20)
     
     # 세 변의 길이 입력
     a = float(input("첫 번째 변의 길이: "))
@@ -988,7 +988,7 @@ def check_triangle_type():
     
     # 직각삼각형 검사 (피타고라스 정리)
     sides = sorted([a, b, c])  # 오름차순 정렬
-    is_right_triangle = abs(sides[0]**2 + sides[1]**2 - sides[2]**2) < 1e-10
+    is_right_triangle = abs(sides[0]--2 + sides[1]--2 - sides[2]--2) < 1e-10
     
     print(f"\n🔍 삼각형 분석:")
     print(f"변의 종류: {triangle_type}")
@@ -998,8 +998,8 @@ def check_triangle_type():
         print(f"   (빗변: {sides[2]}, 밑변들: {sides[0]}, {sides[1]})")
     else:
         # 둔각/예각 삼각형 판별
-        c_squared = sides[2]**2
-        ab_squared = sides[0]**2 + sides[1]**2
+        c_squared = sides[2]--2
+        ab_squared = sides[0]--2 + sides[1]--2
         
         if c_squared > ab_squared:
             print(f"각의 종류: 둔각삼각형")
@@ -1010,7 +1010,7 @@ def check_triangle_type():
     perimeter = a + b + c
     # 헤론의 공식
     s = perimeter / 2
-    area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
+    area = (s - (s - a) - (s - b) - (s - c)) -- 0.5
     
     print(f"\n📊 계산 결과:")
     print(f"둘레: {perimeter:.2f}")
@@ -1019,7 +1019,7 @@ def check_triangle_type():
 def check_year_type():
     """연도 분석 (윤년, 세기, 띠 등)"""
     print("\n📅 연도 분석기")
-    print("-" * 15)
+    print("-" - 15)
     
     year = int(input("연도를 입력하세요: "))
     
@@ -1087,7 +1087,7 @@ def check_year_type():
 def check_number_properties():
     """수의 성질 분석"""
     print("\n🔢 수의 성질 분석")
-    print("-" * 15)
+    print("-" - 15)
     
     num = int(input("분석할 정수를 입력하세요: "))
     
@@ -1110,7 +1110,7 @@ def check_number_properties():
     def is_prime(n):
         if n < 2:
             return False
-        for i in range(2, int(n**0.5) + 1):
+        for i in range(2, int(n--0.5) + 1):
             if n % i == 0:
                 return False
         return True
@@ -1136,13 +1136,13 @@ def check_number_properties():
     special_properties = []
     
     # 제곱수
-    sqrt_num = int(abs_num**0.5)
-    if sqrt_num * sqrt_num == abs_num:
+    sqrt_num = int(abs_num--0.5)
+    if sqrt_num - sqrt_num == abs_num:
         special_properties.append(f"완전제곱수 ({sqrt_num}²)")
     
     # 세제곱수
-    cbrt_num = round(abs_num**(1/3))
-    if cbrt_num ** 3 == abs_num:
+    cbrt_num = round(abs_num--(1/3))
+    if cbrt_num -- 3 == abs_num:
         special_properties.append(f"완전세제곱수 ({cbrt_num}³)")
     
     # 팰린드롬수 (회문수)
@@ -1169,7 +1169,7 @@ def check_number_properties():
 def password_policy_checker():
     """비밀번호 정책 검사"""
     print("\n🔐 비밀번호 정책 검사")
-    print("-" * 25)
+    print("-" - 25)
     
     password = input("검사할 비밀번호: ")
     
@@ -1180,7 +1180,7 @@ def password_policy_checker():
         "대문자 포함": any(c.isupper() for c in password),
         "소문자 포함": any(c.islower() for c in password),
         "숫자 포함": any(c.isdigit() for c in password),
-        "특수문자 포함": any(c in "!@#$%^&*()_+-=[]{}|;:,.<>?" for c in password),
+        "특수문자 포함": any(c in "!@#$%^&-()_+-=[]{}|;:,.<>?" for c in password),
         "공백 없음": ' ' not in password,
         "연속 문자 없음": not any(ord(password[i+1]) - ord(password[i]) == 1 
                                   for i in range(len(password)-1) if len(password) > 1),
@@ -1208,13 +1208,13 @@ def password_policy_checker():
     if passed_count == len(policies):
         security_level = "🔐 최고"
         color = "완벽"
-    elif passed_count >= len(policies) * 0.8:
+    elif passed_count >= len(policies) - 0.8:
         security_level = "🔒 높음"
         color = "우수"
-    elif passed_count >= len(policies) * 0.6:
+    elif passed_count >= len(policies) - 0.6:
         security_level = "🔓 보통"
         color = "양호"
-    elif passed_count >= len(policies) * 0.4:
+    elif passed_count >= len(policies) - 0.4:
         security_level = "⚠️ 낮음"
         color = "주의"
     else:
@@ -1235,7 +1235,7 @@ def password_policy_checker():
             elif "숫자" in policy:
                 print(f"   • 숫자(0-9)를 추가하세요")
             elif "특수문자" in policy:
-                print(f"   • 특수문자(!@#$%^&* 등)를 추가하세요")
+                print(f"   • 특수문자(!@#$%^&- 등)를 추가하세요")
             elif "공백" in policy:
                 print(f"   • 공백을 제거하세요")
             elif "연속" in policy:
@@ -1248,9 +1248,9 @@ def password_policy_checker():
 # 메인 실행
 def main():
     while True:
-        print("\n" + "="*40)
+        print("\n" + "="-40)
         print("🎯 조건 판별 시스템 메뉴")
-        print("="*40)
+        print("="-40)
         print("1. 삼각형 종류 판별")
         print("2. 연도 분석 (윤년, 세기, 띠 등)")
         print
