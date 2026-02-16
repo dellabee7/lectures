@@ -62,7 +62,7 @@
 ### 2. 팀 프로젝트 (Final Term)
 - **주제**: 특정 기업의 디지털 전환(DX/AX) 현황 분석 및 미래 전략 제안
 - **방법**: 6렌즈 프레임워크 + EA 성숙도 진단표 활용
-- **산출물**: ==[[caseStudyGuide]]==와 [[caseStudySample]]에 따른 발표자료
+- **산출물**: [[caseStudyGuide]]와 [[caseStudySample]]에 따른 발표자료
 
 ---
 
@@ -165,7 +165,3 @@
 **Last Updated**: 2026-02-15  
 **Course**: 경영정보시스템  
 **Instructor**: 강송희 교수  
-
----
-
-🎉 **행운을 빕니다! 성공적인 창업을 위한 여정을 시작하세요!**
