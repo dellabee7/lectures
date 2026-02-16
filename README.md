@@ -134,7 +134,7 @@ root/
 
 **Application 프레임워크**: Streamlit
 
-**ML 프레임워크**: PyTorch, 
+**ML 프레임워크**: PyTorch 
 
 **ML library (classical ML)**: scikit-learn
 
@@ -182,7 +182,7 @@ git clone https://github.com/[본인ID]/Lectures-AXID-Lab.git
 - **교수자**: 강송희 교수 (Professor Dr. Songhee Kang)
 - **연구실**: AXID Lab
 - **소속**: 한국공학대학교 IT경영전공
-- **이메일**: [dellabee]@tukorea.ac.kr
+- **이메일**: dellabee@tukorea.ac.kr
 
 ### 📞 문의 방법
 
@@ -194,10 +194,10 @@ git clone https://github.com/[본인ID]/Lectures-AXID-Lab.git
 
 ## 🏛️ 한국공학대학교 소개 (About TU Korea)
 
-한국공학대학교는 **산업통상자원부** 설립의 특수목적 공학대학으로, 한국의 핵심 제조업과 산업 기반 발전을 목표로 **혁신적인 산학협력 모델**을 구현하고 있습니다.
+한국공학대학교는 **산업통상자원부**가 설립한 특수목적 공학대학으로, 한국의 핵심 제조업과 산업 기반 발전을 목표로 **혁신적인 산학협력 모델**을 구현하고 있습니다.
 
 **실무 중심의 유능한 리더** 양성을 통해 지속 가능한 산업 발전에 기여합니다.
 
 ---
 
-*최종 업데이트: 2026년 | AXID Lab & Tech University of Korea*
+최종 업데이트: 2026년 | AXID Lab & Tech University of Korea
